@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #cfcfcf;
+    color: black;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    
+    /* font:normal 16px 'Roboto', sans-serif; */
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.kenichic {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: -9px 9px 17px 0px rgba(13, 7, 107, 0.733);
+}
+/* при id(class) используется #(решётка) */
