@@ -1,21 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* импорт шрифта из Roboto */
 
 body {
     background-color: #cfcfcf;
+    /* цвет фона */
     color: black;
+    /* цвет букв */
 
     font-size: 16px;
+    /* размер букв */
     font-weight: normal;
+    /* жирность */
     font-family: 'Roboto', sans-serif;
+    /* стиль шрифта, из интернета */
     
     /* font:normal 16px 'Roboto', sans-serif; */
 
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* стиль шрифта */
 }
 
 .kenichic {
     width: 200px;
+    /* размер img */
     border-radius: 28px;
+    /* закругление img */
     box-shadow: -9px 9px 17px 0px rgba(13, 7, 107, 0.733);
+    /* тень от img */
 }
 /* при id(class) используется #(решётка) */
+
+.info p {
+    color: rgba(15, 14, 13, 0.678);
+    margin: 0px;
+    font-style: italic;
+    /* наклонный шрифт */
+
+    /* font-weight: bold; */
+    /* жирный шрифт */
+
+    text-decoration: underline;
+    /* линия подчёркивания */
+
+    /* text-transform: uppercase; */
+    /* все буквы заглавные */
+
+    /* letter-spacing: 10px; */
+    /* расстояние между буквами */
+
+    word-spacing: 10px;
+    /* расстояние мужду словами */
+}
