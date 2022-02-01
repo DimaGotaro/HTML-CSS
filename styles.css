@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* импорт шрифта из Roboto */
 
+@font-face {
+    font-family: kali2; src: url("Roboto/Roboto-Italic.ttf");
+}
+
 body {
     background-color: #cfcfcf;
     /* цвет фона */
@@ -33,13 +37,16 @@ body {
 .info p {
     color: rgba(15, 14, 13, 0.678);
     margin: 0px;
-    font-style: italic;
+    /* font-style: italic; */
     /* наклонный шрифт */
 
-    /* font-weight: bold; */
+    font-family: kali2, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+
+    /* font-weight: 600; */
     /* жирный шрифт */
 
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* линия подчёркивания */
 
     /* text-transform: uppercase; */
