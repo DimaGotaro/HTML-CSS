@@ -88,21 +88,24 @@ body {
 }
 
 .ots2 {
-    /* margin-bottom: 500px; */
-    padding: 20px;
+    margin-bottom: 500px;
+    padding: 10px;
     /* background-color: red; */
-    border: 20px solid #32a1ce;
+    border: 10px solid #32a1ce;
     border-top-width: 30px;
     border-top-color: yellow;
-    /* margin-top: 200px; */
+    margin-top: 300px;
+    /* float: left; */
 }
 
-.box_model div {
+.box_model > div {
     background: black;
     height: 100px;
-    width: 50px;
-    /* margin-top: 50px; */
-    /* float: left; */
-
+    width: 25%;
+    float: right;
+    /* margin: 10px; */
+    border: 8px solid green;
+    box-sizing: border-box;
+    /* добавляет бордер в элемент(по умолчанию бордед и маржин не входят в элемент) */
 }
 
