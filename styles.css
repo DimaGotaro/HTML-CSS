@@ -8,7 +8,7 @@
 body {
     background-color: #cfcfcf;
     /* цвет фона */
-    color: black;
+    /* color: black; */
     /* цвет букв */
 
     font-size: 16px;
@@ -22,6 +22,8 @@ body {
 
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     /* стиль шрифта */
+
+    /* margin: auto; */
 }
 
 .kenichic {
@@ -79,18 +81,28 @@ body {
 }
 
 .container {
-    max-width: 750px;
+    max-width: 800px;
     /* размер блока */
     margin: auto;
     /* расположение блока */
 }
 
 .ots2 {
-    margin-bottom: 500px;
+    /* margin-bottom: 500px; */
     padding: 20px;
     /* background-color: red; */
     border: 20px solid #32a1ce;
     border-top-width: 30px;
     border-top-color: yellow;
+    /* margin-top: 200px; */
+}
+
+.box_model div {
+    background: black;
+    height: 100px;
+    width: 50px;
+    /* margin-top: 50px; */
+    /* float: left; */
+
 }
 
