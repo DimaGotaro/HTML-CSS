@@ -37,18 +37,18 @@ body {
     /* закругление img */
     box-shadow: -9px 9px 17px 0px rgba(13, 7, 107, 0.733);
     /* тень от img */
-    margin: 20px;
+    /* margin: 20px; */
 }
 /* при id(class) используется #(решётка) */
 
-.infop {
-    /* float: right;
-    width: 370px;
-    margin: 230px 180px 0px 0px;  */
+.info img, .info p {
+    float: left;
+    /* margin: 10px auto; */
+    margin: 20px;
+}
 
-    /* width: 370px;
-    margin: 10px auto; */
-    /* расположение посередине */
+.info {
+    height: 350px;
 }
 
 h1 {
@@ -56,11 +56,11 @@ h1 {
 }
 
 .h1r {
-    width: fit-content;
-    margin: 10px auto;
+    /* width: fit-content;
+    margin: 10px auto; */
+    text-align: center;
+    /* расположение текста */
 }
-
-
 
 .info p {
     color: rgba(15, 14, 13, 0.678);
@@ -85,6 +85,11 @@ h1 {
 
     word-spacing: 10px;
     /* расстояние мужду словами */
+
+    line-height: 1.2;
+    /* расстояние мужду строками */
+
+    margin-top: 200px;
 }
 
 /* Box model */
