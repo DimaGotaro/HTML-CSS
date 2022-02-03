@@ -42,9 +42,13 @@ body {
 /* при id(class) используется #(решётка) */
 
 .infop {
-    float: right;
+    /* float: right;
     width: 370px;
-    margin: 230px 180px 0px 0px; 
+    margin: 230px 180px 0px 0px;  */
+
+    /* width: 370px;
+    margin: 10px auto; */
+    /* расположение посередине */
 }
 
 h1 {
