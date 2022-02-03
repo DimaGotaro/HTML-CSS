@@ -109,3 +109,22 @@ body {
     /* добавляет бордер в элемент(по умолчанию бордед и маржин не входят в элемент) */
 }
 
+a {
+    text-decoration: none;
+    color: rgba(6, 6, 153, 0.788);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* наведение на ссылку */
+
+a:active {
+    color: rgb(8, 8, 121);
+}
+/* действие с ссылкой */
+
+/* a:visited {
+    color: cadetblue;
+} */
+/* ранее посещённые ссылки */
