@@ -204,6 +204,10 @@ a:active {
     padding: 10px;
 }
 
+.card li {
+    display: inline-block;
+}
+
 .ol_2 {
     padding: 0px 5px;
     margin: 0px;
