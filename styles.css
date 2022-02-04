@@ -41,14 +41,21 @@ body {
 }
 /* при id(class) используется #(решётка) */
 
-.info img, .info p {
+/* .info img, .info p {
     float: left;
-    /* margin: 10px auto; */
+    margin: 10px auto;
     margin: 20px;
-}
+} */
 
 .info {
-    height: 350px;
+    /* height: 350px; */
+    /* margin: auto; */
+}
+
+.info li {
+    display: inline-block;
+    width: fit-content;
+    margin: 20px;
 }
 
 h1 {
@@ -89,7 +96,8 @@ h1 {
     line-height: 1.2;
     /* расстояние мужду строками */
 
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    width: fit-content;
 }
 
 /* Box model */
@@ -205,7 +213,8 @@ a:active {
 }
 
 .card li {
-    display: inline-block;
+    display: inline;
+    /* list-style: lower-latin; */
 }
 
 .ol_2 {
