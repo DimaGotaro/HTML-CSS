@@ -236,10 +236,26 @@ a:active {
 
 .table {
     width: 100%;
+    border-spacing: 0;
+    /* расстояние между ячейками */
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .table td {
     padding: 10px;
+}
+
+.table th {
+    border-bottom: 1px solid gray;
+}
+
+.table th:nth-child(1), .table th:nth-child(2), .table th:nth-child(3), .table th:nth-child(4) {
+    border-right: 1px solid gray;
+}
+
+.table th:nth-child(1) {
+    border-left: 1px solid gray;
 }
 
 .table td:nth-child(4), .table td:nth-child(3) {
@@ -247,6 +263,14 @@ a:active {
 }
 /* выбор определенных элементов в соответствии с их порядковым расположением
 even - чётные, odd - нечётные */
+
+.table td:nth-child(1), .table td:nth-child(2), .table td:nth-child(3), .table td:nth-child(4) {
+    border-right: 1px solid gray;
+}
+
+.table td:nth-child(1) {
+    border-left: 1px solid gray;
+}
 
 .img_s {
     width: 150px;
@@ -260,3 +284,5 @@ even - чётные, odd - нечётные */
     list-style: none;
     padding-left: 10px;
 }
+
+
