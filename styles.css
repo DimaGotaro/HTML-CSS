@@ -48,15 +48,14 @@ body {
 } */
 
 .info {
-    /* height: 350px; */
-    /* margin: auto; */
+    display: flex;
 }
 
-.info li {
+/* .info li {
     display: inline-block;
     width: fit-content;
     margin: 20px;
-}
+} */
 
 h1 {
     margin: 10px;
@@ -123,6 +122,7 @@ h1 {
 
 h2 {
     margin: 10px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -239,7 +239,7 @@ a:active {
     border-spacing: 0;
     /* расстояние между ячейками */
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .table td {
@@ -285,4 +285,51 @@ even - чётные, odd - нечётные */
     padding-left: 10px;
 }
 
+.lgbt :nth-child(2) {
+    border-bottom: 1px solid gray;
+}
+
+.lgbt li {
+    margin: 10px;
+    padding: 5px;
+}
+
+.contecxt h2 {
+    text-align: center;
+}
+
+.form-gr label {
+    display: block;
+    font-size: 16px;
+    color: rgb(66, 65, 65);
+}
+
+.form-gr input, .form-gr textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    /* прозрачность */
+    border-bottom: 1px solid gray;
+    padding: 15px 0 10px;
+    outline: none;
+    /* граница при взаимодействии */
+    font-family: inherit;
+    /* такой же шрифт как и заданный общий */
+    color: black;
+    margin: 10px 0;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row > .form-gr {
+    width: 50%;
+}
+
+.row > .form-gr:first-child {
+    margin-right: 20px;
+}
 

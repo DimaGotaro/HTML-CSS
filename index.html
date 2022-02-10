@@ -9,17 +9,11 @@
     <div class="container">
         <h1 class="h1r">Резюме</h1>
         <div class="info">
-            <ul>
-                <li>
                     <img src="img/kenichi.jpg" alt="Величайший Я" class="kenichic">
-                </li>
-                <li>
                     <p class="infop">"Люблю бить людей,<br> <strong>есть люблю больше.</strong><br>
                     Вот так вот. <br> И ничего вы с этим не сделаете. <br>
                     За пиздюлями обращаться <br> сюда - <a href="https://vk.com/id136328771" target="_blank">Контактик"</a>
                     </p>
-                </li>
-            </ul>
         </div> 
         <h1 class="h1s">Сильнейший ученик Рёдземпаку!</h1>
         <!-- <hr noshade> -->
@@ -47,7 +41,6 @@
         <ul class="lgbt">
             <img class="img_s" src="img/Polina.jpg" alt="Polina">
             <li><a href="https://vk.com/toterhimmel" target="_blank">Polina</a></li>
-            <hr>
             <img class="img_s" src="img/Aleksandr.jpg" alt="Aleksandr">
             <li><a href="https://vk.com/humanized_fox" target="_blank">Aleksandr</a></li>
         </ul>
@@ -84,27 +77,28 @@
                 </tr>
             </tbody>
         </table>
-        <hr noshade>
-        <h2>Обратная связь</h2>
-        <form action="/">
-            <label for="name">Ваше никому не нужное мнение:</label>
-            <br>
-            <br>
-            <textarea name="" id="name" cols="100" rows="10"
-            placeholder="Политическая обстановка на вашей кухне..."></textarea>
-            <br>
-            <br>
-            <label for="name2">Ваш email:</label>
-            <input type="email" id="name2" size="50"
-            placeholder="Чтоб найти тебя, потом...">
-            <br>
-            <br>
-            <label for="name3">Выберете дату когда вас отпиздить:</label>
-            <input type="date" id="name3">
-            <br>
-            <br>
+        <div class="contecxt">
+            <h2>Обратная связь</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-gr">
+                        <label for="name">Ваше никому не нужное мнение:</label>
+                        <textarea name="name" id="name" cols="50" rows="10"
+                        placeholder="Политическая обстановка на вашей кухне..."></textarea>
+                    </div>
+                    <div class="form-gr">
+                        <label for="name2">Ваш email:</label>
+                        <input type="email" id="name2" size="50"
+                        placeholder="Чтоб найти тебя, потом...">
+                    </div>
+                </div>
+                <div class="form-gr">
+                    <label for="name3">Выберете дату когда вас отпиздить:</label>
+                    <input type="date" id="name3">
+                </div>
             <input type="submit">
         </form>
+        </div>
         <div class="box_model">
             <div></div>
             <div></div>
