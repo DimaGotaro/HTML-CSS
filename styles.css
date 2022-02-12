@@ -357,19 +357,26 @@ even - чётные, odd - нечётные */
 
 /* Position */
 
-.position {
+/* .position {
     border: 1px solid black;
     padding: 20px;
     position: relative;
     /* позиционирование относительно элемента .position */
     height: 300px;
-}
+} */
 
-.box {
+/* .box {
     width: 60px;
     height: 60px;
     background: violet;
-    position: absolute;
+    position: fixed;
+    /* position: absolute; */
     /* позиционирование относительно рабочего окна */
     /* top: 60px; */
-}
+    right: 50px;
+    bottom: 50px;
+    /* left: 0; */
+} */
+
+
+
