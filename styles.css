@@ -37,7 +37,7 @@ body {
     /* закругление img */
     box-shadow: -9px 9px 17px 0px rgba(13, 7, 107, 0.733);
     /* тень от img */
-    /* margin: 20px; */
+    margin: 0 40px;
 }
 /* при id(class) используется #(решётка) */
 
@@ -49,6 +49,8 @@ body {
 
 .info {
     display: flex;
+    margin-bottom: 50px;
+    align-items: flex-end;
 }
 
 /* .info li {
@@ -92,11 +94,16 @@ h1 {
     word-spacing: 10px;
     /* расстояние мужду словами */
 
-    line-height: 1.2;
+    line-height: 1.4;
     /* расстояние мужду строками */
 
     /* margin-top: 200px; */
-    width: fit-content;
+    /* width: fit-content; */
+    
+    /* text-align: center; */
+    /* расположение текста */
+    height: fit-content;
+    /* margin-top: 150px; */
 }
 
 /* Box model */
@@ -122,7 +129,7 @@ h1 {
 
 h2 {
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -130,18 +137,6 @@ h2 {
     /* размер блока */
     margin: auto;
     /* расположение блока */
-}
-
-.ots2 {
-    margin-bottom: 200px;
-    padding: 10px;
-    /* background-color: red; */
-    border: 10px solid #32a1ce;
-    border-top-width: 30px;
-    border-top-color: yellow;
-    margin-top: 300px;
-    /* float: left; */
-    /* переставляет элементы слева направо (по умолчанию сверху вниз) */
 }
 
 .box_model > div {
@@ -165,7 +160,8 @@ h2 {
 
 a {
     text-decoration: none;
-    color: rgba(6, 6, 153, 0.788);
+    color: rgb(11, 22, 180);
+    text-align: center;
 }
 
 a:hover {
@@ -281,11 +277,19 @@ even - чётные, odd - нечётные */
 }
 
 .lgbt {
-    list-style: none;
-    padding-left: 10px;
+    display: flex;
 }
 
-.lgbt :nth-child(2) {
+.lgbt a, .lgbt img {
+    margin: 30px;
+    margin-top: 0;
+}
+
+.lgbt a {
+    display: block;
+}
+
+.lgbt {
     border-bottom: 1px solid gray;
 }
 
@@ -294,12 +298,17 @@ even - чётные, odd - нечётные */
     padding: 5px;
 }
 
+.spit {
+    margin-top: 200px;
+}
+
 .contecxt h2 {
     text-align: center;
 }
 
 .form-gr label {
     display: block;
+    /* помещает элемент на отдельную строку */
     font-size: 16px;
     color: rgb(66, 65, 65);
 }
@@ -333,3 +342,34 @@ even - чётные, odd - нечётные */
     margin-right: 20px;
 }
 
+.btn {
+    font-family: inherit;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    /* изменяет курсор при наведении на элемент */
+}
+
+.btn:hover {
+    opacity: 0.6;
+    /* придаёт серость, интерактивная кнопка */
+}
+
+/* Position */
+
+.position {
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+    /* позиционирование относительно элемента .position */
+    height: 300px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: violet;
+    position: absolute;
+    /* позиционирование относительно рабочего окна */
+    /* top: 60px; */
+}
