@@ -53,6 +53,13 @@ body {
     align-items: flex-end;
 }
 
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
 /* .info li {
     display: inline-block;
     width: fit-content;
@@ -72,7 +79,7 @@ h1 {
 
 .info p {
     color: rgba(15, 14, 13, 0.678);
-    /* margin: 0px 15px; */
+    margin: 10px 0px;
     /* font-style: italic; */
     /* наклонный шрифт */
 
@@ -94,7 +101,7 @@ h1 {
     word-spacing: 10px;
     /* расстояние мужду словами */
 
-    line-height: 1.4;
+    /* line-height: 1.4; */
     /* расстояние мужду строками */
 
     /* margin-top: 200px; */
@@ -102,7 +109,7 @@ h1 {
     
     /* text-align: center; */
     /* расположение текста */
-    height: fit-content;
+    /* height: fit-content; */
     /* margin-top: 150px; */
 }
 
@@ -361,7 +368,7 @@ even - чётные, odd - нечётные */
     border: 1px solid black;
     padding: 20px;
     position: relative;
-    /* позиционирование относительно элемента .position */
+    позиционирование относительно элемента .position
     height: 300px;
 } */
 
@@ -370,12 +377,10 @@ even - чётные, odd - нечётные */
     height: 60px;
     background: violet;
     position: fixed;
-    /* position: absolute; */
-    /* позиционирование относительно рабочего окна */
-    /* top: 60px; */
+    position: absolute;
+    позиционирование относительно рабочего окна
     right: 50px;
     bottom: 50px;
-    /* left: 0; */
 } */
 
 
